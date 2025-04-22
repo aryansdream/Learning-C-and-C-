@@ -37,3 +37,27 @@ int main(){
         i++;
     }
 }
+
+
+
+
+/*
+DO WHILE LOOP
+#include <stdio.h>
+int main(){
+    do{
+        statement;
+        increament;
+    }while(condition);
+    return 0;
+}
+example */
+#include <stdio.h>
+int main(){
+    int i = 1;
+    do{
+        printf("Hey This is Aryan \n");
+        i++;
+    }while(i<=5);
+}
+
