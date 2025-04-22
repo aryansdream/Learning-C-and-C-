@@ -13,3 +13,27 @@ for(int i = 1; i<=5; i++){
     printf("Hey This is Aryan \n");
 }
 }
+
+/*
+
+WHILE LOOP
+#include <stdio.h>
+int main(){
+    while(condition){
+        statement;
+        increament;
+        }
+        return 0;
+
+}
+
+
+example*/
+#include <stdio.h>
+int main(){
+    int i = 1;
+    while(i<=5){
+        printf("Hey This is Aryan \n");
+        i++;
+    }
+}
